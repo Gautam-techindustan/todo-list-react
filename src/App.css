@@ -1,0 +1,12 @@
+.App {
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    list-style-position: inside;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant: small-caps;
+  }
+#root{
+    background-color: rgb(238, 236, 132);
+    height: 100vh;
+  }

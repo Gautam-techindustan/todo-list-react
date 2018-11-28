@@ -1,0 +1,75 @@
+.completed{
+  text-decoration: underline;
+  color: blueviolet;
+  margin: 2px; 
+}
+.edit{
+  float: right;
+}
+#add_button{
+  margin-top: 5px;
+  margin-left: 250px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(40, 128, 134);
+  border: none;
+  border-radius: 5px;
+}
+#input{
+  margin-left: 50px;
+}
+
+
+#del_button{
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+#del_button:hover{background-color: rgb(196, 27, 27);}
+#edit_button{
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+#update_button{
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(247, 163, 54);
+  border: none;
+  border-radius: 15px;
+
+}
+input[type=text] {
+  width: 230px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+#right{
+  margin: auto;
+  height: 30px;
+  width: 500px;
+  text-align: left;
+}
+#right:hover {background-color:rgb(206, 204, 88);}
